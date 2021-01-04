@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pointlessly 3D Chrome Dinosaur Game</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="base.css">
+</head>
+<body>
+  <script src="./main.js" type="module">
+  </script>
+  <div class="container" id="container">
+    <div class="ui">
+      <div class="score-layout">
+        <div class="score-text" id="score-text">
+          00000
+        </div>
+      </div>
+    </div>
+    <div class="ui">
+      <div class="game-over-layout" id="game-over">
+        <div class="game-over-text">GAME OVER</div>
+      </div>      
+    </div>
+    <div class="ui">
+      <div class="game-menu-layout" id="game-menu">
+        <div class="game-menu-window">
+          <img src="./raptor.png"></img>
+          <h1>No internet</h1>
+          <p>Try:</p>
+          <li>Checking the network cables, modem, and router</li>
+          <li>Reconnecting to Wi-Fi</li>
+          <li>Running Windows Network Diagnostics</li>
+          <p id="error">ERR_INTERNET_DISCONNECTED</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
